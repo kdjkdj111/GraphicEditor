@@ -1,7 +1,6 @@
 #pragma once
 #include "Shape.h"
-
-class Rect : public Shape {
+class Circle : public Shape {
 protected:
 	virtual void draw();
 };

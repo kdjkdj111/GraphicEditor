@@ -4,15 +4,15 @@
 using namespace std;
 
 class Shape {
+private:
+	Shape* next;
 protected:
-	string name; // 도형의 이름
-	int width, height; // 도형이 내접하는 사각형의 너비와 높이
+	virtual void draw() = 0;
 public:
-	Shape(string n = "", int w = 0, int h = 0) {
-		name = n; width = w; height =
-			h;
-	}
-	virtual double getArea() = 0; // dummy 값 리턴
-	string getName() { return name; } // 이름 리턴
+	Shape() { next = NULL; }
+	virtual ~Shape() { }
+	void paint();
+	Shape* add(Shape* p);
+	Shape* getNext() { return next;}
 };
 

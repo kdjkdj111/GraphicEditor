@@ -1,6 +1,6 @@
 #include "Rect.h"
 
-double Rect::getArea()
-{
-        return width * height;
+
+void Rect::draw() {
+	cout << "Rectangle" << endl;
 }

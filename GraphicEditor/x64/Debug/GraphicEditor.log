@@ -1,7 +1,2 @@
-﻿  main.cpp
-  Oval.cpp
-  Rect.cpp
-  Shape.cpp
-  Triangular.cpp
-  코드를 생성하고 있습니다...
+﻿  GraphicEditor.cpp
   GraphicEditor.vcxproj -> C:\Users\kdjkd\source\repos\GraphicEditor\x64\Debug\GraphicEditor.exe
