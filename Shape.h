@@ -12,7 +12,7 @@ public:
 		name = n; width = w; height =
 			h;
 	}
-	virtual double getArea() { return 0; } // dummy 값 리턴
+	virtual double getArea() = 0; // dummy 값 리턴
 	string getName() { return name; } // 이름 리턴
 };
 
